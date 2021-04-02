@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"fr.afpa.entities.dao"},{"l":"fr.afpa.entities.dto"},{"l":"fr.afpa.libDiscount"},{"l":"fr.afpa.metier.service"},{"l":"fr.afpa.repository.dao"}]

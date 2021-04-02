@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body {
+	font-family: Georgia, "DejaVu Serif", Norasi, serif;
+	height: 100%;
+}
+
+.centerObjects {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+hr {
+	border-top: 2px solid #6EA3D8;
+}
+
+.promo {
+	max-width: 100%;
+	height: auto;
+}
+
+.d-flex {
+	color: #6EA3D8;
+}
+
+
+.item-box {
+	margin-bottom: 16px;
+	border: 2px solid #6EA3D8;
+	width: 300px;
+	height: 450px;
+}
+
+.footer {
+	position: static;
+	bottom: 0;
+	width: 100%;
+	padding-top: 50px;
+	height: 100px;
+	background-color: #6EA3D8;
+}
+.descripProd{
+  	display: flex;
+    justify-content: flex-start;
+   	margin-left : 10px;
+   	margin-top : 10px;
+	width: 275px;
+	height: 200px;
+}
+.cartProd{
+	display : flex;
+	justify-content: space-around;
+	display: flex;
+    justify-content: flex-start;
+   	margin-left : 10px;
+   	margin-top : 10px;
+}
+.priceProd{
+	margin-left: 100px;
+}
+.titreprod{
+	margin-left : 10px;
+   	margin-top : 10px;
+}
+.BoxMonCompte{
+	width :200px;
+	border : 2px solid #6EA3D8;
+	padding : 20px 20px 20px 20px;
+	text-align : center;
+	margin-bottom: 50px;
+}
+.thumbnail:hover{
+	color: white;
+	background-color: red;
+
+}
+
+/* effet bouton et article */
+/* ---------------------------------------------------------- */
+
+.item-box, .BoxMonCompte{
+box-shadow: 3px 5px 11px 0px #6EA3D8;
+}
+
+.btn, .navbardrop, .dropdown-item, .nav-item{
+box-shadow: 3px 3px 4px 0px #6EA3D8;
+}
+/* ---------------------------------------------------------- */
+.page-footer{
+	width :100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #6EA3D8;
+}
+
+hr { 
+	color :#6EA3D8;
+    border: 0; 
+    border-top: 1px solid #6EA3D8; 
+} 
+
+
+
+
+
+
+

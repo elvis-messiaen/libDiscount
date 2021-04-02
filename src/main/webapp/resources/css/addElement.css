@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{
+	height: 100%;
+	font-family: Georgia, "DejaVu Serif", Norasi, serif;
+}
+/* ---------------------------------------------------------- */
+
+.item-box, .BoxMonCompte{
+box-shadow: 3px 5px 11px 0px #6EA3D8;
+}
+
+.btn, .navbardrop, .dropdown-item, .nav-item{
+box-shadow: 3px 3px 4px 0px #6EA3D8;
+}
+/* ---------------------------------------------------------- */
+.m-3, .colorAdresse, .mt-4{
+	color : #6EA3D8;
+}
+.col-md-5{
+	height: 300px;
+	
+}
+
+.borderPointille{
+	border : 2px dotted #6EA3D8;
+}
+.borderSolid{
+	border : 2px solid #6EA3D8;
+}
+.supprimerAdresse{
+	margin-left: auto;
+}
+.marSupp{
+	margin-left: 150px;
+}
+
+
+

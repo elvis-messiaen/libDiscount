@@ -1,0 +1,11 @@
+# Modèle créé le : Thu Nov 26 10:55:38 CET 2020 
+utilisateur (id_user_utilisateur, nom_vendeur, prenom_vendeur, mail_vendeur, password_utilisateur, telephone_vendeur, professionel_utilisateur, actif_utilisateur, #id_librairie_librairie, #id_adress_adresse, #idCommande_commande, #idRole_role) 
+librairie (id_librairie_librairie, nom_librairie, num_voie_librairie, codePostal_librairie, ville_librairie) 
+annonce (id_annonce_annonce, titre_annonce, remise_annonce, prix_total_annonce, #livre_id_livre_livre) 
+adresse (id_adress_adresse, num_voie_adresse, nom_voie_adresse, codePostal_adresse, ville_adresse) 
+livre (id_livre_livre, titre_livre, niveau_scolaire_annonce, isbn_annonce, date-edition_annonce, maison-edition_annonce, prix_unitaire_annonce, photo_annonce, #annonce_id_annonce_annonce) 
+commande (idCommande_commande, dateCommande_commande) 
+categorie (idCategorie_categorie, nomCategorie_categorie, #id_livre_livre) 
+role (idRole_role, nomRole_role) 
+publier (id_user_utilisateur, id_annonce_annonce, date_publier) 
+ligneCommande (idCommande_commande, id_livre_livre, quantité_ligneCommande, prix_ligneCommande) 
